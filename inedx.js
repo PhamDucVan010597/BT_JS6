@@ -45,7 +45,7 @@ document.getElementById("taothediv").onclick = function () {
   var divLe = 0;
   for (k = 1; k <= 10; k++) {
     if (k % 2 == 0) {
-      divChan = ` <div class="bg-danger text-while">Div chẵn:${k}</div>
+      divChan = ` <div class="bg-danger text-white">Div chẵn:${k}</div>
       `;
       div += divChan;
     } else {
